@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <link href="css/style.css" rel="stylesheet">
-  <title>Barbrshop:Каталог</title>
+  <title>Barbershop:Каталог</title>
 </head>
 <body>
   <header>
     <div class="container">
-      <nav class="main-navigation">
-        <ul>
+      <nav class="main-navigation clearfix">
+       <ul>
           <li>
             <a href="#">
               <img src="img/logo.png" width="140" height="70" alt="logo">
@@ -39,18 +39,20 @@
   </header>
   <main class="page-bg">
     <div class="container">
-    <h1>Средства для ухода</h1>
-       <ul class="breadcrumbs">
-        <li>
-          <a href="#">Главная</a>
-        </li>
-        <li>
-          <a href="#">Магазин</a>
-        </li>
-        <li class="active">
-          <a>Средства для ухода</a>
-        </li>
-      </ul>
+      <div class="catalog-head-name">
+        <h1>Средства для ухода</h1>
+         <ul class="breadcrumbs">
+           <li>
+            <a href="#">Главная</a>
+          </li>
+          <li>
+            <a href="#">Магазин</a>
+          </li>
+          <li class="active">
+            <a>Средства для ухода</a>
+          </li>
+        </ul>
+      </div>
       <div class="filters">
         <h2>Производители:</h2>
           <form action="url" name="filter">
@@ -78,7 +80,7 @@
         </div>
       <div class="items">
         <article class="item">
-          <a href="#" class="item-img">
+         <a href="#" class="item-img">
             <img src="img/set_of_california.png" width="220" height="185" alt="item-1">
           <p class="photo-item">Набор для путешествий "Baxter of California"</p>
           </a>
@@ -125,14 +127,14 @@
           <span class="price">3 900руб.</span>
           <a class="btn-buy" href="#">Купить</a>
         </article>
-        </div>
-        <div class="pages">
-          <a href="#" class="page-no">1</a>
-          <a class="page-no active">2</a>
-          <a href="#" class="page-no">3</a>
-          <a href="#" class="page-no">4</a>
-        </div>
       </div>
+      <div class="paginator">
+        <a href="#" class="page-no">1</a>
+        <a class="page-no active">2</a>
+        <a href="#" class="page-no">3</a>
+        <a href="#" class="page-no">4</a>
+      </div>
+    </div>
   </main>
   <footer>
     <div class="container">
